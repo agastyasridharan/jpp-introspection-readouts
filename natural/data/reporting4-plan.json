@@ -1,0 +1,2543 @@
+{
+  "status": "frozen exploratory baseline on existing 40 situations, no new heldout claim",
+  "model": "Qwen/Qwen3.6-27B",
+  "block": 53,
+  "anchor": "final prompt token before any answer text",
+  "K": 20,
+  "eligibility": "at least four distinct original-list instruments in top20; shared eligible denominator for free naming and recognition",
+  "candidate_mapping": [
+    {
+      "word": "violin",
+      "forms": [
+        {
+          "text": "violin",
+          "token_ids": [
+            9676,
+            35424
+          ],
+          "accepted": false
+        },
+        {
+          "text": " violin",
+          "token_ids": [
+            59945
+          ],
+          "accepted": true
+        },
+        {
+          "text": "Violin",
+          "token_ids": [
+            48044,
+            258
+          ],
+          "accepted": false
+        },
+        {
+          "text": " Violin",
+          "token_ids": [
+            28494,
+            258
+          ],
+          "accepted": false
+        }
+      ],
+      "token_ids": [
+        59945
+      ]
+    },
+    {
+      "word": "piano",
+      "forms": [
+        {
+          "text": "piano",
+          "token_ids": [
+            79,
+            12711
+          ],
+          "accepted": false
+        },
+        {
+          "text": " piano",
+          "token_ids": [
+            25439
+          ],
+          "accepted": true
+        },
+        {
+          "text": "Piano",
+          "token_ids": [
+            47,
+            12711
+          ],
+          "accepted": false
+        },
+        {
+          "text": " Piano",
+          "token_ids": [
+            53531
+          ],
+          "accepted": true
+        }
+      ],
+      "token_ids": [
+        25439,
+        53531
+      ]
+    },
+    {
+      "word": "guitar",
+      "forms": [
+        {
+          "text": "guitar",
+          "token_ids": [
+            70,
+            33597
+          ],
+          "accepted": false
+        },
+        {
+          "text": " guitar",
+          "token_ids": [
+            16488
+          ],
+          "accepted": true
+        },
+        {
+          "text": "Guitar",
+          "token_ids": [
+            38,
+            33597
+          ],
+          "accepted": false
+        },
+        {
+          "text": " Guitar",
+          "token_ids": [
+            45099
+          ],
+          "accepted": true
+        }
+      ],
+      "token_ids": [
+        16488,
+        45099
+      ]
+    },
+    {
+      "word": "flute",
+      "forms": [
+        {
+          "text": "flute",
+          "token_ids": [
+            1435,
+            1035
+          ],
+          "accepted": false
+        },
+        {
+          "text": " flute",
+          "token_ids": [
+            92400
+          ],
+          "accepted": true
+        },
+        {
+          "text": "Flute",
+          "token_ids": [
+            3751,
+            1035
+          ],
+          "accepted": false
+        },
+        {
+          "text": " Flute",
+          "token_ids": [
+            2893,
+            1035
+          ],
+          "accepted": false
+        }
+      ],
+      "token_ids": [
+        92400
+      ]
+    },
+    {
+      "word": "drum",
+      "forms": [
+        {
+          "text": "drum",
+          "token_ids": [
+            3491,
+            367
+          ],
+          "accepted": false
+        },
+        {
+          "text": " drum",
+          "token_ids": [
+            22472
+          ],
+          "accepted": true
+        },
+        {
+          "text": "Drum",
+          "token_ids": [
+            8580,
+            367
+          ],
+          "accepted": false
+        },
+        {
+          "text": " Drum",
+          "token_ids": [
+            43891
+          ],
+          "accepted": true
+        }
+      ],
+      "token_ids": [
+        22472,
+        43891
+      ]
+    },
+    {
+      "word": "trumpet",
+      "forms": [
+        {
+          "text": "trumpet",
+          "token_ids": [
+            371,
+            1456,
+            294
+          ],
+          "accepted": false
+        },
+        {
+          "text": " trumpet",
+          "token_ids": [
+            88117
+          ],
+          "accepted": true
+        },
+        {
+          "text": "Trumpet",
+          "token_ids": [
+            15643,
+            294
+          ],
+          "accepted": false
+        },
+        {
+          "text": " Trumpet",
+          "token_ids": [
+            3230,
+            294
+          ],
+          "accepted": false
+        }
+      ],
+      "token_ids": [
+        88117
+      ]
+    },
+    {
+      "word": "organ",
+      "forms": [
+        {
+          "text": "organ",
+          "token_ids": [
+            8202
+          ],
+          "accepted": true
+        },
+        {
+          "text": " organ",
+          "token_ids": [
+            2779
+          ],
+          "accepted": true
+        },
+        {
+          "text": "Organ",
+          "token_ids": [
+            22503
+          ],
+          "accepted": true
+        },
+        {
+          "text": " Organ",
+          "token_ids": [
+            10446
+          ],
+          "accepted": true
+        }
+      ],
+      "token_ids": [
+        2779,
+        8202,
+        10446,
+        22503
+      ]
+    },
+    {
+      "word": "accordion",
+      "forms": [
+        {
+          "text": "accordion",
+          "token_ids": [
+            34166
+          ],
+          "accepted": true
+        },
+        {
+          "text": " accordion",
+          "token_ids": [
+            83999
+          ],
+          "accepted": true
+        },
+        {
+          "text": "Accordion",
+          "token_ids": [
+            69172
+          ],
+          "accepted": true
+        },
+        {
+          "text": " Accordion",
+          "token_ids": [
+            11101,
+            24892
+          ],
+          "accepted": false
+        }
+      ],
+      "token_ids": [
+        34166,
+        69172,
+        83999
+      ]
+    }
+  ],
+  "trials": [
+    {
+      "id": "instrument-002",
+      "prompt": "I'm forming a band for a seaside wedding. What is one musical instrument I could use? Give a brief recommendation in one sentence.",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        40,
+        2688,
+        28115,
+        264,
+        6835,
+        364,
+        264,
+        89579,
+        12635,
+        13,
+        3437,
+        369,
+        799,
+        17264,
+        13736,
+        353,
+        1362,
+        958,
+        30,
+        20052,
+        264,
+        9522,
+        26785,
+        303,
+        799,
+        11316,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "candidates": [
+        {
+          "word": "piano",
+          "rank": 1
+        },
+        {
+          "word": "guitar",
+          "rank": 2
+        },
+        {
+          "word": "violin",
+          "rank": 3
+        },
+        {
+          "word": "flute",
+          "rank": 6
+        }
+      ],
+      "reference": "piano",
+      "previous_two_option_pilot": true,
+      "orders": [
+        [
+          "violin",
+          "flute",
+          "guitar",
+          "piano"
+        ],
+        [
+          "piano",
+          "violin",
+          "flute",
+          "guitar"
+        ]
+      ]
+    },
+    {
+      "id": "instrument-003",
+      "prompt": "I'm planning background music for a library opening. What is one musical instrument I could use? Give a brief recommendation in one sentence.",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        40,
+        2688,
+        8842,
+        3870,
+        4477,
+        364,
+        264,
+        6522,
+        8306,
+        13,
+        3437,
+        369,
+        799,
+        17264,
+        13736,
+        353,
+        1362,
+        958,
+        30,
+        20052,
+        264,
+        9522,
+        26785,
+        303,
+        799,
+        11316,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "candidates": [
+        {
+          "word": "piano",
+          "rank": 1
+        },
+        {
+          "word": "violin",
+          "rank": 3
+        },
+        {
+          "word": "flute",
+          "rank": 7
+        },
+        {
+          "word": "guitar",
+          "rank": 9
+        }
+      ],
+      "reference": "piano",
+      "previous_two_option_pilot": false,
+      "orders": [
+        [
+          "guitar",
+          "piano",
+          "flute",
+          "violin"
+        ],
+        [
+          "violin",
+          "guitar",
+          "piano",
+          "flute"
+        ]
+      ]
+    },
+    {
+      "id": "instrument-005",
+      "prompt": "I'm writing accompaniment for a solo singer. What is one musical instrument I could use? Give a brief recommendation in one sentence.",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        40,
+        2688,
+        4237,
+        5547,
+        822,
+        3691,
+        364,
+        264,
+        13138,
+        22049,
+        13,
+        3437,
+        369,
+        799,
+        17264,
+        13736,
+        353,
+        1362,
+        958,
+        30,
+        20052,
+        264,
+        9522,
+        26785,
+        303,
+        799,
+        11316,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "candidates": [
+        {
+          "word": "piano",
+          "rank": 1
+        },
+        {
+          "word": "guitar",
+          "rank": 2
+        },
+        {
+          "word": "violin",
+          "rank": 6
+        },
+        {
+          "word": "flute",
+          "rank": 16
+        }
+      ],
+      "reference": "piano",
+      "previous_two_option_pilot": false,
+      "orders": [
+        [
+          "piano",
+          "guitar",
+          "flute",
+          "violin"
+        ],
+        [
+          "violin",
+          "piano",
+          "guitar",
+          "flute"
+        ]
+      ]
+    },
+    {
+      "id": "instrument-006",
+      "prompt": "I'm putting together a chamber ensemble for a small gallery. What is one musical instrument I could use? Give a brief recommendation in one sentence.",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        40,
+        2688,
+        10371,
+        3658,
+        264,
+        23459,
+        37733,
+        364,
+        264,
+        2526,
+        17507,
+        13,
+        3437,
+        369,
+        799,
+        17264,
+        13736,
+        353,
+        1362,
+        958,
+        30,
+        20052,
+        264,
+        9522,
+        26785,
+        303,
+        799,
+        11316,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "candidates": [
+        {
+          "word": "violin",
+          "rank": 1
+        },
+        {
+          "word": "piano",
+          "rank": 2
+        },
+        {
+          "word": "flute",
+          "rank": 9
+        },
+        {
+          "word": "guitar",
+          "rank": 11
+        }
+      ],
+      "reference": "violin",
+      "previous_two_option_pilot": true,
+      "orders": [
+        [
+          "guitar",
+          "violin",
+          "piano",
+          "flute"
+        ],
+        [
+          "flute",
+          "guitar",
+          "violin",
+          "piano"
+        ]
+      ]
+    },
+    {
+      "id": "instrument-007",
+      "prompt": "I'm planning music for a Renaissance fair. What is one musical instrument I could use? Give a brief recommendation in one sentence.",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        40,
+        2688,
+        8842,
+        4477,
+        364,
+        264,
+        52459,
+        6415,
+        13,
+        3437,
+        369,
+        799,
+        17264,
+        13736,
+        353,
+        1362,
+        958,
+        30,
+        20052,
+        264,
+        9522,
+        26785,
+        303,
+        799,
+        11316,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "candidates": [
+        {
+          "word": "violin",
+          "rank": 5
+        },
+        {
+          "word": "flute",
+          "rank": 6
+        },
+        {
+          "word": "guitar",
+          "rank": 12
+        },
+        {
+          "word": "piano",
+          "rank": 14
+        }
+      ],
+      "reference": "violin",
+      "previous_two_option_pilot": true,
+      "orders": [
+        [
+          "violin",
+          "flute",
+          "guitar",
+          "piano"
+        ],
+        [
+          "piano",
+          "violin",
+          "flute",
+          "guitar"
+        ]
+      ]
+    },
+    {
+      "id": "instrument-008",
+      "prompt": "I'm forming a band for a neighborhood ceilidh. What is one musical instrument I could use? Give a brief recommendation in one sentence.",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        40,
+        2688,
+        28115,
+        264,
+        6835,
+        364,
+        264,
+        12174,
+        27551,
+        306,
+        71,
+        13,
+        3437,
+        369,
+        799,
+        17264,
+        13736,
+        353,
+        1362,
+        958,
+        30,
+        20052,
+        264,
+        9522,
+        26785,
+        303,
+        799,
+        11316,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "candidates": [
+        {
+          "word": "guitar",
+          "rank": 1
+        },
+        {
+          "word": "violin",
+          "rank": 2
+        },
+        {
+          "word": "piano",
+          "rank": 4
+        },
+        {
+          "word": "flute",
+          "rank": 7
+        }
+      ],
+      "reference": "guitar",
+      "previous_two_option_pilot": true,
+      "orders": [
+        [
+          "piano",
+          "guitar",
+          "violin",
+          "flute"
+        ],
+        [
+          "flute",
+          "piano",
+          "guitar",
+          "violin"
+        ]
+      ]
+    },
+    {
+      "id": "instrument-009",
+      "prompt": "I'm arranging a lullaby for a family recording. What is one musical instrument I could use? Give a brief recommendation in one sentence.",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        40,
+        2688,
+        73513,
+        264,
+        324,
+        602,
+        5923,
+        364,
+        264,
+        2902,
+        14212,
+        13,
+        3437,
+        369,
+        799,
+        17264,
+        13736,
+        353,
+        1362,
+        958,
+        30,
+        20052,
+        264,
+        9522,
+        26785,
+        303,
+        799,
+        11316,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "candidates": [
+        {
+          "word": "piano",
+          "rank": 1
+        },
+        {
+          "word": "violin",
+          "rank": 6
+        },
+        {
+          "word": "guitar",
+          "rank": 7
+        },
+        {
+          "word": "flute",
+          "rank": 11
+        }
+      ],
+      "reference": "piano",
+      "previous_two_option_pilot": false,
+      "orders": [
+        [
+          "flute",
+          "piano",
+          "violin",
+          "guitar"
+        ],
+        [
+          "guitar",
+          "flute",
+          "piano",
+          "violin"
+        ]
+      ]
+    },
+    {
+      "id": "instrument-011",
+      "prompt": "I'm planning live music for a French cafe. What is one musical instrument I could use? Give a brief recommendation in one sentence.",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        40,
+        2688,
+        8842,
+        3756,
+        4477,
+        364,
+        264,
+        8323,
+        39579,
+        13,
+        3437,
+        369,
+        799,
+        17264,
+        13736,
+        353,
+        1362,
+        958,
+        30,
+        20052,
+        264,
+        9522,
+        26785,
+        303,
+        799,
+        11316,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "candidates": [
+        {
+          "word": "piano",
+          "rank": 1
+        },
+        {
+          "word": "violin",
+          "rank": 3
+        },
+        {
+          "word": "guitar",
+          "rank": 6
+        },
+        {
+          "word": "flute",
+          "rank": 12
+        }
+      ],
+      "reference": "piano",
+      "previous_two_option_pilot": false,
+      "orders": [
+        [
+          "guitar",
+          "flute",
+          "piano",
+          "violin"
+        ],
+        [
+          "violin",
+          "guitar",
+          "flute",
+          "piano"
+        ]
+      ]
+    },
+    {
+      "id": "instrument-015",
+      "prompt": "I'm planning a solo performance in a railway station. What is one musical instrument I could use? Give a brief recommendation in one sentence.",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        40,
+        2688,
+        8842,
+        264,
+        13138,
+        4906,
+        303,
+        264,
+        37714,
+        7803,
+        13,
+        3437,
+        369,
+        799,
+        17264,
+        13736,
+        353,
+        1362,
+        958,
+        30,
+        20052,
+        264,
+        9522,
+        26785,
+        303,
+        799,
+        11316,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "candidates": [
+        {
+          "word": "violin",
+          "rank": 2
+        },
+        {
+          "word": "guitar",
+          "rank": 3
+        },
+        {
+          "word": "piano",
+          "rank": 4
+        },
+        {
+          "word": "flute",
+          "rank": 14
+        }
+      ],
+      "reference": "violin",
+      "previous_two_option_pilot": false,
+      "orders": [
+        [
+          "piano",
+          "guitar",
+          "flute",
+          "violin"
+        ],
+        [
+          "violin",
+          "piano",
+          "guitar",
+          "flute"
+        ]
+      ]
+    },
+    {
+      "id": "instrument-017",
+      "prompt": "I'm making music for a puppet show. What is one musical instrument I could use? Give a brief recommendation in one sentence.",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        40,
+        2688,
+        3154,
+        4477,
+        364,
+        264,
+        47784,
+        1420,
+        13,
+        3437,
+        369,
+        799,
+        17264,
+        13736,
+        353,
+        1362,
+        958,
+        30,
+        20052,
+        264,
+        9522,
+        26785,
+        303,
+        799,
+        11316,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "candidates": [
+        {
+          "word": "piano",
+          "rank": 1
+        },
+        {
+          "word": "violin",
+          "rank": 3
+        },
+        {
+          "word": "guitar",
+          "rank": 4
+        },
+        {
+          "word": "flute",
+          "rank": 8
+        }
+      ],
+      "reference": "piano",
+      "previous_two_option_pilot": false,
+      "orders": [
+        [
+          "flute",
+          "piano",
+          "violin",
+          "guitar"
+        ],
+        [
+          "guitar",
+          "flute",
+          "piano",
+          "violin"
+        ]
+      ]
+    },
+    {
+      "id": "instrument-018",
+      "prompt": "I'm planning accompaniment for an outdoor storytelling session. What is one musical instrument I could use? Give a brief recommendation in one sentence.",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        40,
+        2688,
+        8842,
+        5547,
+        822,
+        3691,
+        364,
+        449,
+        15325,
+        46234,
+        3669,
+        13,
+        3437,
+        369,
+        799,
+        17264,
+        13736,
+        353,
+        1362,
+        958,
+        30,
+        20052,
+        264,
+        9522,
+        26785,
+        303,
+        799,
+        11316,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "candidates": [
+        {
+          "word": "guitar",
+          "rank": 3
+        },
+        {
+          "word": "violin",
+          "rank": 6
+        },
+        {
+          "word": "flute",
+          "rank": 7
+        },
+        {
+          "word": "piano",
+          "rank": 9
+        }
+      ],
+      "reference": "guitar",
+      "previous_two_option_pilot": true,
+      "orders": [
+        [
+          "guitar",
+          "violin",
+          "piano",
+          "flute"
+        ],
+        [
+          "flute",
+          "guitar",
+          "violin",
+          "piano"
+        ]
+      ]
+    },
+    {
+      "id": "instrument-020",
+      "prompt": "I'm composing a gentle theme for a nature film. What is one musical instrument I could use? Give a brief recommendation in one sentence.",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        40,
+        2688,
+        73285,
+        264,
+        21030,
+        6697,
+        364,
+        264,
+        6775,
+        4383,
+        13,
+        3437,
+        369,
+        799,
+        17264,
+        13736,
+        353,
+        1362,
+        958,
+        30,
+        20052,
+        264,
+        9522,
+        26785,
+        303,
+        799,
+        11316,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "candidates": [
+        {
+          "word": "piano",
+          "rank": 2
+        },
+        {
+          "word": "violin",
+          "rank": 3
+        },
+        {
+          "word": "flute",
+          "rank": 6
+        },
+        {
+          "word": "guitar",
+          "rank": 12
+        }
+      ],
+      "reference": "piano",
+      "previous_two_option_pilot": false,
+      "orders": [
+        [
+          "guitar",
+          "flute",
+          "piano",
+          "violin"
+        ],
+        [
+          "violin",
+          "guitar",
+          "flute",
+          "piano"
+        ]
+      ]
+    },
+    {
+      "id": "instrument-021",
+      "prompt": "I'm organizing music for a medieval banquet. What is one musical instrument I could use? Give a brief recommendation in one sentence.",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        40,
+        2688,
+        33572,
+        4477,
+        364,
+        264,
+        39654,
+        83744,
+        13,
+        3437,
+        369,
+        799,
+        17264,
+        13736,
+        353,
+        1362,
+        958,
+        30,
+        20052,
+        264,
+        9522,
+        26785,
+        303,
+        799,
+        11316,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "candidates": [
+        {
+          "word": "violin",
+          "rank": 5
+        },
+        {
+          "word": "flute",
+          "rank": 8
+        },
+        {
+          "word": "piano",
+          "rank": 11
+        },
+        {
+          "word": "guitar",
+          "rank": 13
+        }
+      ],
+      "reference": "violin",
+      "previous_two_option_pilot": false,
+      "orders": [
+        [
+          "piano",
+          "flute",
+          "guitar",
+          "violin"
+        ],
+        [
+          "violin",
+          "piano",
+          "flute",
+          "guitar"
+        ]
+      ]
+    },
+    {
+      "id": "instrument-022",
+      "prompt": "I'm planning a performance for a retirement home. What is one musical instrument I could use? Give a brief recommendation in one sentence.",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        40,
+        2688,
+        8842,
+        264,
+        4906,
+        364,
+        264,
+        20310,
+        2046,
+        13,
+        3437,
+        369,
+        799,
+        17264,
+        13736,
+        353,
+        1362,
+        958,
+        30,
+        20052,
+        264,
+        9522,
+        26785,
+        303,
+        799,
+        11316,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "candidates": [
+        {
+          "word": "piano",
+          "rank": 1
+        },
+        {
+          "word": "guitar",
+          "rank": 2
+        },
+        {
+          "word": "violin",
+          "rank": 3
+        },
+        {
+          "word": "flute",
+          "rank": 10
+        }
+      ],
+      "reference": "piano",
+      "previous_two_option_pilot": false,
+      "orders": [
+        [
+          "piano",
+          "violin",
+          "flute",
+          "guitar"
+        ],
+        [
+          "guitar",
+          "piano",
+          "violin",
+          "flute"
+        ]
+      ]
+    },
+    {
+      "id": "instrument-023",
+      "prompt": "I'm arranging a bright opening fanfare. What is one musical instrument I could use? Give a brief recommendation in one sentence.",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        40,
+        2688,
+        73513,
+        264,
+        9613,
+        8306,
+        8145,
+        22333,
+        13,
+        3437,
+        369,
+        799,
+        17264,
+        13736,
+        353,
+        1362,
+        958,
+        30,
+        20052,
+        264,
+        9522,
+        26785,
+        303,
+        799,
+        11316,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "candidates": [
+        {
+          "word": "trumpet",
+          "rank": 2
+        },
+        {
+          "word": "piano",
+          "rank": 3
+        },
+        {
+          "word": "violin",
+          "rank": 5
+        },
+        {
+          "word": "flute",
+          "rank": 11
+        }
+      ],
+      "reference": "trumpet",
+      "previous_two_option_pilot": true,
+      "orders": [
+        [
+          "flute",
+          "trumpet",
+          "piano",
+          "violin"
+        ],
+        [
+          "violin",
+          "flute",
+          "trumpet",
+          "piano"
+        ]
+      ]
+    },
+    {
+      "id": "instrument-024",
+      "prompt": "I'm forming a group to perform Baroque music. What is one musical instrument I could use? Give a brief recommendation in one sentence.",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        40,
+        2688,
+        28115,
+        264,
+        1809,
+        310,
+        2649,
+        4564,
+        58511,
+        4477,
+        13,
+        3437,
+        369,
+        799,
+        17264,
+        13736,
+        353,
+        1362,
+        958,
+        30,
+        20052,
+        264,
+        9522,
+        26785,
+        303,
+        799,
+        11316,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "candidates": [
+        {
+          "word": "violin",
+          "rank": 3
+        },
+        {
+          "word": "piano",
+          "rank": 6
+        },
+        {
+          "word": "guitar",
+          "rank": 12
+        },
+        {
+          "word": "flute",
+          "rank": 15
+        }
+      ],
+      "reference": "violin",
+      "previous_two_option_pilot": false,
+      "orders": [
+        [
+          "guitar",
+          "flute",
+          "piano",
+          "violin"
+        ],
+        [
+          "violin",
+          "guitar",
+          "flute",
+          "piano"
+        ]
+      ]
+    },
+    {
+      "id": "instrument-025",
+      "prompt": "I'm planning live music for a small dinner party. What is one musical instrument I could use? Give a brief recommendation in one sentence.",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        40,
+        2688,
+        8842,
+        3756,
+        4477,
+        364,
+        264,
+        2526,
+        13459,
+        4464,
+        13,
+        3437,
+        369,
+        799,
+        17264,
+        13736,
+        353,
+        1362,
+        958,
+        30,
+        20052,
+        264,
+        9522,
+        26785,
+        303,
+        799,
+        11316,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "candidates": [
+        {
+          "word": "piano",
+          "rank": 1
+        },
+        {
+          "word": "guitar",
+          "rank": 2
+        },
+        {
+          "word": "violin",
+          "rank": 4
+        },
+        {
+          "word": "flute",
+          "rank": 10
+        }
+      ],
+      "reference": "piano",
+      "previous_two_option_pilot": false,
+      "orders": [
+        [
+          "piano",
+          "flute",
+          "guitar",
+          "violin"
+        ],
+        [
+          "violin",
+          "piano",
+          "flute",
+          "guitar"
+        ]
+      ]
+    },
+    {
+      "id": "instrument-026",
+      "prompt": "I'm composing an eerie theme for a mystery play. What is one musical instrument I could use? Give a brief recommendation in one sentence.",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        40,
+        2688,
+        73285,
+        449,
+        92955,
+        6697,
+        364,
+        264,
+        21831,
+        1432,
+        13,
+        3437,
+        369,
+        799,
+        17264,
+        13736,
+        353,
+        1362,
+        958,
+        30,
+        20052,
+        264,
+        9522,
+        26785,
+        303,
+        799,
+        11316,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "candidates": [
+        {
+          "word": "piano",
+          "rank": 1
+        },
+        {
+          "word": "violin",
+          "rank": 5
+        },
+        {
+          "word": "guitar",
+          "rank": 14
+        },
+        {
+          "word": "flute",
+          "rank": 18
+        }
+      ],
+      "reference": "piano",
+      "previous_two_option_pilot": false,
+      "orders": [
+        [
+          "flute",
+          "guitar",
+          "piano",
+          "violin"
+        ],
+        [
+          "violin",
+          "flute",
+          "guitar",
+          "piano"
+        ]
+      ]
+    },
+    {
+      "id": "instrument-028",
+      "prompt": "I'm organizing an ensemble for a klezmer celebration. What is one musical instrument I could use? Give a brief recommendation in one sentence.",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        40,
+        2688,
+        33572,
+        449,
+        37733,
+        364,
+        264,
+        23523,
+        89,
+        1134,
+        24126,
+        13,
+        3437,
+        369,
+        799,
+        17264,
+        13736,
+        353,
+        1362,
+        958,
+        30,
+        20052,
+        264,
+        9522,
+        26785,
+        303,
+        799,
+        11316,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "candidates": [
+        {
+          "word": "violin",
+          "rank": 3
+        },
+        {
+          "word": "piano",
+          "rank": 7
+        },
+        {
+          "word": "flute",
+          "rank": 10
+        },
+        {
+          "word": "guitar",
+          "rank": 19
+        }
+      ],
+      "reference": "violin",
+      "previous_two_option_pilot": false,
+      "orders": [
+        [
+          "piano",
+          "flute",
+          "violin",
+          "guitar"
+        ],
+        [
+          "guitar",
+          "piano",
+          "flute",
+          "violin"
+        ]
+      ]
+    },
+    {
+      "id": "instrument-030",
+      "prompt": "I'm arranging an accompaniment for a ballet class. What is one musical instrument I could use? Give a brief recommendation in one sentence.",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        40,
+        2688,
+        73513,
+        449,
+        5547,
+        822,
+        3691,
+        364,
+        264,
+        67832,
+        523,
+        13,
+        3437,
+        369,
+        799,
+        17264,
+        13736,
+        353,
+        1362,
+        958,
+        30,
+        20052,
+        264,
+        9522,
+        26785,
+        303,
+        799,
+        11316,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "candidates": [
+        {
+          "word": "piano",
+          "rank": 1
+        },
+        {
+          "word": "violin",
+          "rank": 4
+        },
+        {
+          "word": "guitar",
+          "rank": 6
+        },
+        {
+          "word": "flute",
+          "rank": 15
+        }
+      ],
+      "reference": "piano",
+      "previous_two_option_pilot": false,
+      "orders": [
+        [
+          "guitar",
+          "piano",
+          "violin",
+          "flute"
+        ],
+        [
+          "flute",
+          "guitar",
+          "piano",
+          "violin"
+        ]
+      ]
+    },
+    {
+      "id": "instrument-031",
+      "prompt": "I'm planning a busking performance in a town square. What is one musical instrument I could use? Give a brief recommendation in one sentence.",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        40,
+        2688,
+        8842,
+        264,
+        5647,
+        10253,
+        4906,
+        303,
+        264,
+        6092,
+        9057,
+        13,
+        3437,
+        369,
+        799,
+        17264,
+        13736,
+        353,
+        1362,
+        958,
+        30,
+        20052,
+        264,
+        9522,
+        26785,
+        303,
+        799,
+        11316,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "candidates": [
+        {
+          "word": "guitar",
+          "rank": 1
+        },
+        {
+          "word": "violin",
+          "rank": 3
+        },
+        {
+          "word": "piano",
+          "rank": 5
+        },
+        {
+          "word": "flute",
+          "rank": 10
+        }
+      ],
+      "reference": "guitar",
+      "previous_two_option_pilot": false,
+      "orders": [
+        [
+          "piano",
+          "violin",
+          "flute",
+          "guitar"
+        ],
+        [
+          "guitar",
+          "piano",
+          "violin",
+          "flute"
+        ]
+      ]
+    },
+    {
+      "id": "instrument-032",
+      "prompt": "I'm organizing music for a graduation procession. What is one musical instrument I could use? Give a brief recommendation in one sentence.",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        40,
+        2688,
+        33572,
+        4477,
+        364,
+        264,
+        37177,
+        80828,
+        13,
+        3437,
+        369,
+        799,
+        17264,
+        13736,
+        353,
+        1362,
+        958,
+        30,
+        20052,
+        264,
+        9522,
+        26785,
+        303,
+        799,
+        11316,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "candidates": [
+        {
+          "word": "trumpet",
+          "rank": 3
+        },
+        {
+          "word": "flute",
+          "rank": 9
+        },
+        {
+          "word": "violin",
+          "rank": 11
+        },
+        {
+          "word": "drum",
+          "rank": 14
+        }
+      ],
+      "reference": "trumpet",
+      "previous_two_option_pilot": true,
+      "orders": [
+        [
+          "flute",
+          "drum",
+          "trumpet",
+          "violin"
+        ],
+        [
+          "violin",
+          "flute",
+          "drum",
+          "trumpet"
+        ]
+      ]
+    },
+    {
+      "id": "instrument-033",
+      "prompt": "I'm composing a playful theme for an animated short. What is one musical instrument I could use? Give a brief recommendation in one sentence.",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        40,
+        2688,
+        73285,
+        264,
+        54185,
+        6697,
+        364,
+        449,
+        11043,
+        2716,
+        13,
+        3437,
+        369,
+        799,
+        17264,
+        13736,
+        353,
+        1362,
+        958,
+        30,
+        20052,
+        264,
+        9522,
+        26785,
+        303,
+        799,
+        11316,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "candidates": [
+        {
+          "word": "piano",
+          "rank": 2
+        },
+        {
+          "word": "violin",
+          "rank": 3
+        },
+        {
+          "word": "guitar",
+          "rank": 6
+        },
+        {
+          "word": "flute",
+          "rank": 11
+        }
+      ],
+      "reference": "piano",
+      "previous_two_option_pilot": false,
+      "orders": [
+        [
+          "guitar",
+          "flute",
+          "piano",
+          "violin"
+        ],
+        [
+          "violin",
+          "guitar",
+          "flute",
+          "piano"
+        ]
+      ]
+    },
+    {
+      "id": "instrument-035",
+      "prompt": "I'm planning music for a candlelit memorial. What is one musical instrument I could use? Give a brief recommendation in one sentence.",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        40,
+        2688,
+        8842,
+        4477,
+        364,
+        264,
+        36549,
+        30596,
+        36665,
+        13,
+        3437,
+        369,
+        799,
+        17264,
+        13736,
+        353,
+        1362,
+        958,
+        30,
+        20052,
+        264,
+        9522,
+        26785,
+        303,
+        799,
+        11316,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "candidates": [
+        {
+          "word": "piano",
+          "rank": 1
+        },
+        {
+          "word": "violin",
+          "rank": 2
+        },
+        {
+          "word": "flute",
+          "rank": 7
+        },
+        {
+          "word": "guitar",
+          "rank": 10
+        }
+      ],
+      "reference": "piano",
+      "previous_two_option_pilot": false,
+      "orders": [
+        [
+          "piano",
+          "violin",
+          "guitar",
+          "flute"
+        ],
+        [
+          "flute",
+          "piano",
+          "violin",
+          "guitar"
+        ]
+      ]
+    },
+    {
+      "id": "instrument-036",
+      "prompt": "I'm arranging a rhythmic accompaniment for a tap dancer. What is one musical instrument I could use? Give a brief recommendation in one sentence.",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        40,
+        2688,
+        73513,
+        264,
+        27163,
+        20569,
+        5547,
+        822,
+        3691,
+        364,
+        264,
+        14795,
+        61434,
+        13,
+        3437,
+        369,
+        799,
+        17264,
+        13736,
+        353,
+        1362,
+        958,
+        30,
+        20052,
+        264,
+        9522,
+        26785,
+        303,
+        799,
+        11316,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "candidates": [
+        {
+          "word": "piano",
+          "rank": 1
+        },
+        {
+          "word": "violin",
+          "rank": 2
+        },
+        {
+          "word": "guitar",
+          "rank": 4
+        },
+        {
+          "word": "flute",
+          "rank": 15
+        }
+      ],
+      "reference": "piano",
+      "previous_two_option_pilot": false,
+      "orders": [
+        [
+          "violin",
+          "flute",
+          "guitar",
+          "piano"
+        ],
+        [
+          "piano",
+          "violin",
+          "flute",
+          "guitar"
+        ]
+      ]
+    },
+    {
+      "id": "instrument-038",
+      "prompt": "I'm forming a band for an Irish folk session. What is one musical instrument I could use? Give a brief recommendation in one sentence.",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        40,
+        2688,
+        28115,
+        264,
+        6835,
+        364,
+        449,
+        17097,
+        27030,
+        3669,
+        13,
+        3437,
+        369,
+        799,
+        17264,
+        13736,
+        353,
+        1362,
+        958,
+        30,
+        20052,
+        264,
+        9522,
+        26785,
+        303,
+        799,
+        11316,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "candidates": [
+        {
+          "word": "guitar",
+          "rank": 1
+        },
+        {
+          "word": "violin",
+          "rank": 3
+        },
+        {
+          "word": "piano",
+          "rank": 8
+        },
+        {
+          "word": "flute",
+          "rank": 11
+        }
+      ],
+      "reference": "guitar",
+      "previous_two_option_pilot": false,
+      "orders": [
+        [
+          "violin",
+          "flute",
+          "guitar",
+          "piano"
+        ],
+        [
+          "piano",
+          "violin",
+          "flute",
+          "guitar"
+        ]
+      ]
+    },
+    {
+      "id": "instrument-039",
+      "prompt": "I'm planning a solo interlude during a theatre performance. What is one musical instrument I could use? Give a brief recommendation in one sentence.",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        40,
+        2688,
+        8842,
+        264,
+        13138,
+        916,
+        50767,
+        2261,
+        264,
+        32385,
+        4906,
+        13,
+        3437,
+        369,
+        799,
+        17264,
+        13736,
+        353,
+        1362,
+        958,
+        30,
+        20052,
+        264,
+        9522,
+        26785,
+        303,
+        799,
+        11316,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "candidates": [
+        {
+          "word": "piano",
+          "rank": 1
+        },
+        {
+          "word": "violin",
+          "rank": 2
+        },
+        {
+          "word": "guitar",
+          "rank": 5
+        },
+        {
+          "word": "flute",
+          "rank": 8
+        }
+      ],
+      "reference": "piano",
+      "previous_two_option_pilot": false,
+      "orders": [
+        [
+          "piano",
+          "flute",
+          "violin",
+          "guitar"
+        ],
+        [
+          "guitar",
+          "piano",
+          "flute",
+          "violin"
+        ]
+      ]
+    }
+  ],
+  "excluded": [
+    "instrument-001",
+    "instrument-004",
+    "instrument-010",
+    "instrument-012",
+    "instrument-013",
+    "instrument-014",
+    "instrument-016",
+    "instrument-019",
+    "instrument-027",
+    "instrument-029",
+    "instrument-034",
+    "instrument-037",
+    "instrument-040"
+  ],
+  "variants": [
+    {
+      "id": "free_neutral",
+      "task": "free",
+      "instruction": "Reply with only the name of that instrument."
+    },
+    {
+      "id": "free_abstain",
+      "task": "free",
+      "instruction": "Reply with only the name of that instrument, or NONE if you cannot identify one."
+    },
+    {
+      "id": "free_required",
+      "task": "free",
+      "instruction": "You must name one instrument, even if uncertain. Reply with only its name."
+    },
+    {
+      "id": "recognition_abstain",
+      "task": "recognition",
+      "instruction": "Reply with only A, B, C, or D, or U if you cannot identify one."
+    },
+    {
+      "id": "recognition_required",
+      "task": "recognition",
+      "instruction": "You must choose one option, even if uncertain. Reply with only A, B, C, or D."
+    }
+  ],
+  "conditions": [
+    "self_report",
+    "context_predictor"
+  ],
+  "generation": {
+    "dtype": "float32",
+    "thinking": false,
+    "greedy": true,
+    "max_new_tokens": 16
+  },
+  "self_question": "At the point just after you had read my original request, before producing any answer text, which musical instrument was most strongly represented in your processing?",
+  "context_question": "Predict which musical instrument was most strongly represented in that instance's processing just after reading the request, before producing any answer text.",
+  "recognition_suffix": " Choose among the following four instruments.",
+  "self_mechanism": "Exact original prefix cache; force-close empty assistant turn, append user report question and native generation header; original natural answer never supplied.",
+  "context_mechanism": "Fresh conversation quotes only original user request and asks prediction about another instance. Not a causal control.",
+  "free_scoring": "casefold, trim surrounding whitespace/punctuation and one leading a/an/the; exact reference-item equality; no synonyms. NONE, out-of-list, truncated outputs are nonmatches, separately counted.",
+  "recognition_scoring": "single letter A-D after whitespace/punctuation trimming; U abstention. Truncated or other responses invalid; nonmatches for exact agreement. Rank1-4 among offered lens-ranked candidates for valid choices only; report coverage.",
+  "counterbalance": "seeded balanced reference positions then cyclic rotate one position; independently randomize lower-ranked items; same orders for arms and recognition variants.",
+  "numerical_checks": "Every prefix block53 matches saved activation within 1e-5. First self-report of each variant: cached and full next-token logprob vector maxdiff<=0.001 and identical argmax. Stop on failure.",
+  "n_responses": 378
+}

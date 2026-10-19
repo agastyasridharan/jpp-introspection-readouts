@@ -1,0 +1,101 @@
+{
+  "situations": 11,
+  "responses": 44,
+  "max_anchor_abs_difference": 0.0,
+  "cache_validation": [
+    {
+      "cached_full_AB_logprob_max_difference": 2.3990869522094727e-06,
+      "same_argmax": true
+    }
+  ],
+  "conditions": {
+    "self_report": {
+      "correct": 21,
+      "n": 22,
+      "valid": 22,
+      "both_orders_correct": 10,
+      "by_order": {
+        "high_first": {
+          "correct": 10,
+          "n": 11
+        },
+        "high_second": {
+          "correct": 11,
+          "n": 11
+        }
+      }
+    },
+    "context_predictor": {
+      "correct": 22,
+      "n": 22,
+      "valid": 22,
+      "both_orders_correct": 11,
+      "by_order": {
+        "high_first": {
+          "correct": 11,
+          "n": 11
+        },
+        "high_second": {
+          "correct": 11,
+          "n": 11
+        }
+      }
+    }
+  },
+  "discordances": [
+    {
+      "trial": {
+        "id": "instrument-007",
+        "prompt": "I'm planning music for a Renaissance fair. What is one musical instrument I could use? Give a brief recommendation in one sentence.",
+        "input_ids": [
+          248045,
+          846,
+          198,
+          40,
+          2688,
+          8842,
+          4477,
+          364,
+          264,
+          52459,
+          6415,
+          13,
+          3437,
+          369,
+          799,
+          17264,
+          13736,
+          353,
+          1362,
+          958,
+          30,
+          20052,
+          264,
+          9522,
+          26785,
+          303,
+          799,
+          11316,
+          13,
+          248046,
+          198,
+          248045,
+          74455,
+          198,
+          248068,
+          271,
+          248069,
+          271
+        ],
+        "high": "violin",
+        "low": "drum",
+        "high_rank": 5,
+        "low_rank_censored": 63,
+        "logit_gap_lower_bound": 1.815415859222412
+      },
+      "order": "high_first",
+      "self_report": "B",
+      "context_predictor": "A"
+    }
+  ]
+}
